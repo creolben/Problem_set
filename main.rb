@@ -20,16 +20,17 @@ def get_stops_multiple_connections
  end
 end
 
-# puts "'''''''''''''' Question 1 ''''''''''''''''"
-# subway_route_log_names
-# puts "''''''''''''''''''''''''''''''''''''''''''\n"
-# puts "'''''''''''''' Question 2 A ''''''''''''''''"
-# route_with_most_stops
-# puts "'''''''''''''' Question 2 B ''''''''''''''''"
-# route_with_fewer_stops
-# puts "'''''''''''''' Question 2 C ''''''''''''''''\n"
-# get_stops_multiple_connections
-# puts "''''''''''''''''''''''''''''''''''''''''''\n"
+puts "'''''''''''''' Question 1 ''''''''''''''''"
+subway_route_log_names
+puts "''''''''''''''''''''''''''''''''''''''''''\n"
+puts "'''''''''''''' Question 2 A ''''''''''''''''"
+route_with_most_stops
+puts "'''''''''''''' Question 2 B ''''''''''''''''"
+route_with_fewer_stops
+puts "'''''''''''''' Question 2 C ''''''''''''''''\n"
+get_stops_multiple_connections
+puts "''''''''''''''''''''''''''''''''''''''''''\n"
 puts "'''''''''''''' Question 3 ''''''''''''''''"
-
+puts MBTApi::get_lines_by_stop_name('Davis','Kendall')
+puts MBTApi::get_lines_by_stop_name('Ashmont','Forest Hills')
 puts "''''''''''''''''''''''''''''''''''''''''''"

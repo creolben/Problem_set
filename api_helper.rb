@@ -25,8 +25,27 @@ module MBTApi
     result['data'].map{|i|i['id']}
   end
 
-  def get_lines_by_stop_name(stops)
-    get_call("https://api-v3.mbta.com/routes?filter[type]=0,1&filter[stop]=place-alfcl,place-tumnl")
+  def get_lines_by_stop_name(*locations)
+    stations =[]
+    station_ids = {}
+    lines = []
+    routes = get_all_mbta_subways['data'].map { |i| i['id'] }
+    routes.each do |id|
+      station_ids.store("#{id}",get_all_route_stops(id)['data'].map{|i| [i['attributes']['name'],i['id']]}.to_h)
+    end
+    locations.each do |station|
+      stations << get_station_key(station_ids, station)
+    end
+    result = get_call("routes?filter[type]=0,1&filter[stop]=#{stations[0]},#{stations[1]}")
+    locations = "#{locations[0]} To #{locations[1]} ->"
+    if result['data'].size == 1
+      result_str = "#{locations} #{result['data'][0]['id']}line"
+    else
+      result['data'].each do |line|
+        lines << "#{line['id']},"
+      end
+      result_str = "#{locations} #{lines.to_s}"
+    end
   end
 
   def get_subway_stops_connections
@@ -68,5 +87,10 @@ module MBTApi
     "#{route[0]} line has the least stops total #{route[1]}"
   end
 
+  def get_station_key(routes, key_str)
+    routes.each do |route|
+      return route.last["#{key_str}"] if route.last.has_key? key_str
+    end
+  end
 
 end
