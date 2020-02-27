@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7f8033c3-014c-4b86-b77d-af7f3c786ba6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.rb" beforeDir="false" afterPath="$PROJECT_DIR$/main.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582412489964</updated>
       <workItem from="1582412492405" duration="53500000" />
-      <workItem from="1582769350244" duration="7021000" />
+      <workItem from="1582769350244" duration="7972000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1582769591498</created>
@@ -156,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582769722903</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added question 3 answer">
+      <created>1582776535524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582776535525</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="added question 3 answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added question 3 answer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1222" y="-1062" width="828" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582655254529">
@@ -184,10 +191,10 @@
     <state x="647" y="143" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1582520924782" />
     <state x="3018" y="-109" key="#xdebugger.evaluate/0.23.1680.1027/1680.-390.2560.1440@1680.-390.2560.1440" timestamp="1582596971718" />
     <state x="1471" y="-1071" width="1324" height="907" key="#xdebugger.evaluate/875.-1200.1920.1200/-325.-1920.1200.1920/0.0.1680.1050@875.-1200.1920.1200" timestamp="1582659642591" />
-    <state x="2472" y="-247" key="CommitChangelistDialog2" timestamp="1582769722742">
+    <state x="2472" y="-247" key="CommitChangelistDialog2" timestamp="1582776535213">
       <screen x="1680" y="-390" width="2560" height="1440" />
     </state>
-    <state x="2472" y="-247" key="CommitChangelistDialog2/0.0.1680.1050/1680.-390.2560.1440@1680.-390.2560.1440" timestamp="1582769722742" />
+    <state x="2472" y="-247" key="CommitChangelistDialog2/0.0.1680.1050/1680.-390.2560.1440@1680.-390.2560.1440" timestamp="1582776535213" />
     <state width="744" height="957" key="DebuggerActiveHint" timestamp="1582775564192">
       <screen x="1680" y="-390" width="2560" height="1440" />
     </state>
@@ -285,10 +292,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="233" y="76" key="SettingsEditor/0.0.1680.1050/1680.-390.2560.1440@0.0.1680.1050" timestamp="1582470076146" />
-    <state x="2460" y="2" key="Vcs.Push.Dialog.v2" timestamp="1582769726942">
+    <state x="2460" y="2" key="Vcs.Push.Dialog.v2" timestamp="1582776537405">
       <screen x="1680" y="-390" width="2560" height="1440" />
     </state>
-    <state x="2460" y="2" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.-390.2560.1440@1680.-390.2560.1440" timestamp="1582769726942" />
+    <state x="2460" y="2" key="Vcs.Push.Dialog.v2/0.0.1680.1050/1680.-390.2560.1440@1680.-390.2560.1440" timestamp="1582776537405" />
     <state x="2125" y="-245" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1582471662406">
       <screen x="1680" y="-390" width="2560" height="1440" />
     </state>
