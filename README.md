@@ -1,7 +1,6 @@
 ### Dependencies:
 * gem 'rest-client'
 * gem 'json'
-* gem 'jsonpath'
 * gem 'debug_inspector'
 
 ### Problem Awswers
