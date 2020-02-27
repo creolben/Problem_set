@@ -1,8 +1,8 @@
 ### Dependencies:
-gem 'rest-client'
-gem 'json'
-gem 'jsonpath'
-gem 'debug_inspector'
+* gem 'rest-client'
+* gem 'json'
+* gem 'jsonpath'
+* gem 'debug_inspector'
 
 ### Problem Awswers
 *Broad DSP Engineering Interview Take-Home
@@ -13,7 +13,7 @@ their “long names” on the console.
 Partial example of long name output: Red Line, Blue Line, Orange Line...
 There are two ways to filter results for subway-only routes. Think about the two options below
 and choose:
-`<addr>` 1. https://api-v3.mbta.com/routes
+1. https://api-v3.mbta.com/routes
 2. https://api-v3.mbta.com/routes?filter[type]=0,1
 ######Please document your decision and your reasons for it.
 ### Question 2
