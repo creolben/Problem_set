@@ -15,7 +15,7 @@ There are two ways to filter results for subway-only routes. Think about the two
 and choose:
 1. https://api-v3.mbta.com/routes
 2. https://api-v3.mbta.com/routes?filter[type]=0,1
-######Please document your decision and your reasons for it.
+###### Please document your decision and your reasons for it.
 ### Question 2
 Extend your program so it displays the following additional information.
 1. The name of the subway route with the most stops as well as a count of its stops.
