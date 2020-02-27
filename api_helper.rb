@@ -1,6 +1,8 @@
 require 'rest-client'
 require 'json'
+
 module MBTApi
+
   @key = ENV['API_KEY']
   include RestClient
   include JSON
