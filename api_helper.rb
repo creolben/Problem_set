@@ -56,7 +56,7 @@ module MBTApi
       result_str = "#{locations} #{result['data'][0]['id']}line"
     else
       result['data'].each do |line|
-        lines << "#{line['id']},"
+        lines << "#{line['id']}line,"
       end
       result_str = "#{locations} #{lines.to_s}"
     end
