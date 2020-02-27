@@ -1,0 +1,6 @@
+ruby '2.6.3'
+source 'http://rubygems.org'
+gem 'rest-client'
+gem 'json'
+gem 'jsonpath'
+gem 'debug_inspector'
