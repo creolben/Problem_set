@@ -6,7 +6,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    json (2.1.0)
+    json (2.3.0)
     jsonpath (0.8.11)
       multi_json
       to_regexp (~> 0.2.1)
